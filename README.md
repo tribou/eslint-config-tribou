@@ -2,6 +2,8 @@
 
 Start with JS Standard Style but push towards better readability, git-awareness, and React and ES6 best practices
 
+##### Semver Warning: this project's rules are still stabilizing and will most likely have breaking changes until v2.x.
+
 #### Quick Start
 
 ```bash
