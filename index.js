@@ -19,6 +19,7 @@ module.exports = {
       "tabWidth": 2,
       "ignoreUrls": true
     }],
+    "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 0  }],
     "padded-blocks": [2, "always"]
   }
 }
