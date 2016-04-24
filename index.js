@@ -14,6 +14,7 @@ module.exports = {
     "comma-dangle": [2, "always-multiline"],
     "flow-vars/define-flow-type": 1,
     "flow-vars/use-flow-type": 1,
+    "max-len": [2, 80, 2, { "ignoreUrls": true, "ignorePattern": true }],
     "padded-blocks": [2, "always"]
   }
 }
