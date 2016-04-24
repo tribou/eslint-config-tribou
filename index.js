@@ -9,6 +9,7 @@ module.exports = {
   ],
   "rules": {
     "strict": 0,
+    "arrow-body-style": [2, "always"],
     "brace-style": [2, "stroustrup"],
     "comma-dangle": [2, "always-multiline"],
     "flow-vars/define-flow-type": 1,
