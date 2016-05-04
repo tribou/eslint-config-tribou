@@ -22,6 +22,7 @@ module.exports = {
     }],
     "operator-linebreak": [2, "before"],
     "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 0  }],
+    "no-underscore-dangle": [0],
     "padded-blocks": [2, "always"]
   }
 }
