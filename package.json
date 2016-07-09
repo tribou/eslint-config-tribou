@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tribou",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Start with JS Standard Style but push towards better readability, git-awareness, and React and ES6 best practices",
   "main": "src/index.js",
   "scripts": {
