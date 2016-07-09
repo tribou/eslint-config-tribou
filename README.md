@@ -22,3 +22,15 @@ Then add the following to your `.eslintrc`:
   ]
 }
 ```
+
+#### EmberJS
+
+Use this `.eslintrc`:
+
+```json
+{
+  "extends": [
+    "tribou/lib/ember"
+  ]
+}
+```
