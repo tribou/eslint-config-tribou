@@ -10,7 +10,15 @@ Start with JS Standard Style but push towards better readability, git-awareness,
 npm install --save-dev \
   eslint \
   babel-eslint \
-  eslint-config-tribou
+  eslint-config-tribou \
+  eslint-config-airbnb \
+  eslint-config-standard \
+  eslint-plugin-react \
+  eslint-plugin-flow-vars \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-standard \
+  eslint-plugin-import \
+  eslint-plugin-promise
 ```
 
 Then add the following to your `.eslintrc`:
