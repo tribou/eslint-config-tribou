@@ -15,6 +15,11 @@ module.exports = {
     "comma-dangle": [2, "always-multiline"],
     "flowtype/define-flow-type": 1,
     "flowtype/use-flow-type": 1,
+    "flowtype/require-parameter-type": ["error", "always", { "excludeArrowFunctions": "expressionsOnly" }],
+    "flowtype/require-return-type": ["error", "always", { "excludeArrowFunctions": "expressionsOnly" }],
+    "flowtype/require-valid-file-annotation": ["error", "always"],
+    "flowtype/valid-syntax": ["error", "always"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "max-len": [2, {
       "code": 80,
       "tabWidth": 2,
@@ -24,6 +29,12 @@ module.exports = {
     "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 0  }],
     "no-underscore-dangle": [0],
     "padded-blocks": [2, "always"],
-    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+    "react/jsx-filename-extension": [0],
+    "react/require-extension": [0]
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
   }
 }

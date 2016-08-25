@@ -31,5 +31,20 @@ Then add the following to your `.eslintrc`:
 }
 ```
 
+To have flow only check `\\ @flow` annotated files:
+
+```json
+{
+  "extends": [
+    "tribou"
+  ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
+```
+
 *Note*
 If you use Syntastic for Vim, be sure to add `pmsorhaindo/syntastic-local-eslint.vim` to your `.vimrc` to ensure you're always using local `node_modules/.bin/eslint`.
