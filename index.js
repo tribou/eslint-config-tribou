@@ -5,7 +5,7 @@ module.exports = {
   ],
   "parser": "babel-eslint",
   "plugins": [
-    "flow-vars"
+    "flowtype"
   ],
   "rules": {
     "strict": 0,
@@ -13,8 +13,8 @@ module.exports = {
     "arrow-parens": [2, "always"],
     "brace-style": [2, "stroustrup"],
     "comma-dangle": [2, "always-multiline"],
-    "flow-vars/define-flow-type": 1,
-    "flow-vars/use-flow-type": 1,
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
     "max-len": [2, {
       "code": 80,
       "tabWidth": 2,
