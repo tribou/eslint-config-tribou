@@ -12,7 +12,7 @@ npm install --save-dev \
     eslint@^3.3.1 \
     eslint-config-tribou@1.8.x \
     eslint-config-airbnb@^10.0.1 \
-    eslint-config-standard@^5.1.0 \
+    eslint-config-standard@^6.0.0 \
     eslint-plugin-flowtype@^2.11.0 \
     eslint-plugin-import@^1.14.0 \
     eslint-plugin-jsx-a11y@^2.1.0 \
