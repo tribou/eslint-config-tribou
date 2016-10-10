@@ -32,7 +32,7 @@
   "homepage": "https://github.com/tribou/eslint-config-tribou#readme",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
-    "eslint": "^3.3.1",
+    "eslint": "^3.7.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-flowtype": "^2.11.0",
@@ -44,7 +44,7 @@
   },
   "peerDependencies": {
     "babel-eslint": "^6.1.2",
-    "eslint": "^3.3.1",
+    "eslint": "^3.7.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-flowtype": "^2.11.0",
