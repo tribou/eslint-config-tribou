@@ -27,31 +27,32 @@
   },
   "homepage": "https://github.com/tribou/eslint-config-tribou#readme",
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.7.1",
-    "eslint-config-airbnb": "^10.0.1",
-    "eslint-config-standard": "^6.0.0",
-    "eslint-plugin-flowtype": "^2.11.0",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-react": "^6.0.0",
-    "eslint-plugin-standard": "^2.0.0"
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-tribou": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-standard": "^2.0.1"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.7.1",
-    "eslint-config-airbnb": "^10.0.1",
-    "eslint-config-standard": "^6.0.0",
-    "eslint-plugin-flowtype": "^2.11.0",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-react": "^6.0.0",
-    "eslint-plugin-standard": "^2.0.0"
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-standard": "^2.0.1"
   },
   "scripts": {
-    "prepublish": "git push && git push --tags",
+    "lint": "eslint --cache --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
