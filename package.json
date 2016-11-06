@@ -3,10 +3,6 @@
   "version": "1.9.0",
   "description": "Start with JS Standard Style but push towards better readability, git-awareness, vim-usability, and React and ES6 best practices",
   "main": "index.js",
-  "scripts": {
-    "prepublish": "git push && git push --tags",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tribou/eslint-config-tribou.git"
@@ -38,7 +34,7 @@
     "eslint-plugin-flowtype": "^2.11.0",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-react": "^6.0.0",
     "eslint-plugin-standard": "^2.0.0"
   },
@@ -50,8 +46,12 @@
     "eslint-plugin-flowtype": "^2.11.0",
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-react": "^6.0.0",
     "eslint-plugin-standard": "^2.0.0"
+  },
+  "scripts": {
+    "prepublish": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
