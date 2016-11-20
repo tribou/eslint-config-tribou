@@ -7,10 +7,10 @@ git-awareness, vim-usability, and React and ES6 best practices.
 
 ```bash
 npm install --save-dev \
-    eslint-config-tribou@^2.0.0 \
+    eslint-config-tribou@^3.0.0 \
     babel-eslint@^7.1.0 \
     eslint@^3.9.1 \
-    eslint-config-airbnb@^12.0.0 \
+    eslint-config-airbnb@^13.0.0 \
     eslint-config-standard@^6.2.1 \
     eslint-plugin-flowtype@^2.25.0 \
     eslint-plugin-import@^2.1.0 \
