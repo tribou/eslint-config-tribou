@@ -315,9 +315,9 @@ eslint-config-standard@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-6.2.1.tgz#d3a68aafc7191639e7ee441e7348739026354292"
 
-eslint-config-tribou@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-tribou/-/eslint-config-tribou-2.0.0.tgz#6bc6b386bcde96e30b2b86bc1d0da1196f4539e2"
+eslint-config-tribou@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-tribou/-/eslint-config-tribou-3.0.0.tgz#b537a68124f94a67cf1ad9e173eaf29cddeb3497"
 
 eslint-import-resolver-node@^0.2.0:
   version "0.2.3"
