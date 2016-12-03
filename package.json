@@ -8,10 +8,12 @@
     "url": "git+https://github.com/tribou/eslint-config-tribou.git"
   },
   "keywords": [
+    "config",
     "eslint",
     "eslintconfig",
-    "config",
     "tribou",
+    "flow",
+    "flowtype",
     "javascript",
     "style",
     "styleguide",
@@ -31,13 +33,16 @@
     "eslint": "^3.9.1",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-config-standard": "^6.2.1",
-    "eslint-config-tribou": "^3.0.0",
     "eslint-plugin-flowtype": "^2.25.0",
     "eslint-plugin-import": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-promise": "^3.3.1",
     "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0"
   },
   "peerDependencies": {
     "babel-eslint": "^7.1.0",
@@ -52,7 +57,8 @@
     "eslint-plugin-standard": "^2.0.1"
   },
   "scripts": {
-    "lint": "eslint --cache --ignore-path .gitignore .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --cache --ignore-path .gitignore index.js",
+    "test": "eslint --config index.js test",
+    "watch-test": "nodemon -x npm test"
   }
 }

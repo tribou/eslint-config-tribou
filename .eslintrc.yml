@@ -1,5 +1,5 @@
 extends:
-  - tribou
+  - ./index.js
 
 settings:
   flowtype:

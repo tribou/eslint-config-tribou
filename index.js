@@ -28,6 +28,8 @@ module.exports = {
       devDependencies: true,
     }],
 
+    'quote-props': ['error', 'as-needed', { numbers: true }],
+
     'react/jsx-filename-extension': [0],
     'react/require-extension': [0],
 

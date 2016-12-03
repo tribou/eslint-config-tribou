@@ -1,5 +1,10 @@
 # eslint-config-tribou
 
+[![npm version](https://badge.fury.io/js/eslint-config-tribou.svg)](https://badge.fury.io/js/eslint-config-tribou)
+[![Build Status](https://travis-ci.org/tribou/eslint-config-tribou.svg?branch=master)](https://travis-ci.org/tribou/eslint-config-tribou)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![bitHound Code](https://www.bithound.io/github/tribou/eslint-config-tribou/badges/code.svg)](https://www.bithound.io/github/tribou/eslint-config-tribou)
+
 Start with JS Standard Style but push towards better readability,
 git-awareness, vim-usability, and React and ES6 best practices.
 
