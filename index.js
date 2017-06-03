@@ -1,35 +1,28 @@
 module.exports = {
 
   extends: [
-    'eslint-config-airbnb',
-    'eslint-config-standard',
+    'airbnb',
+    'standard',
     'plugin:flowtype/recommended',
   ],
 
   parser: 'babel-eslint',
 
   plugins: [
-    'tribou',
+    'flowtype',
   ],
 
   rules: {
 
-    'flowtype/define-flow-type': 1,
-    'flowtype/use-flow-type': 1,
-    'flowtype/require-parameter-type': ['error', 'always', {
-      excludeArrowFunctions: 'expressionsOnly',
-    }],
-    'flowtype/require-return-type': ['error', 'always', {
-      excludeArrowFunctions: 'expressionsOnly',
-    }],
-    'flowtype/require-valid-file-annotation': ['error', 'always'],
-    'flowtype/valid-syntax': ['error', 'always'],
-
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
     }],
-
-    'no-duplicate-imports': 0,
+    'import/extensions': ['error', {
+      js: 'never',
+      jsx: 'never',
+    }],
+    'import/no-duplicates': ['error', 'always'],
+    'no-duplicate-imports': 0, // handled by import/no-duplicates
 
     'quote-props': ['error', 'as-needed', { numbers: true }],
 
@@ -38,24 +31,24 @@ module.exports = {
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
 
     strict: 0,
-    'arrow-body-style': [2, 'always'],
-    'arrow-parens': [2, 'always'],
-    'brace-style': [2, 'stroustrup'],
-    'comma-dangle': [2, 'always-multiline'],
-    'max-len': [2, {
+    'arrow-body-style': ['error', 'always'],
+    'arrow-parens': ['error', 'always'],
+    'brace-style': ['error', 'stroustrup'],
+    'comma-dangle': ['error', 'always-multiline'],
+    'max-len': ['error', {
       code: 80,
       tabWidth: 2,
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
       ignoreUrls: true,
     }],
-    'operator-linebreak': [2, 'before'],
-    'no-multiple-empty-lines': [2, {
+    'operator-linebreak': ['error', 'before'],
+    'no-multiple-empty-lines': ['error', {
       max: 2,
       maxEOF: 0,
     }],
     'no-underscore-dangle': [0],
-    'padded-blocks': [2, 'always'],
+    'padded-blocks': ['error', 'always'],
 
   },
 

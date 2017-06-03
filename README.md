@@ -1,12 +1,25 @@
 # eslint-config-tribou
 
-[![npm version](https://badge.fury.io/js/eslint-config-tribou.svg)](https://badge.fury.io/js/eslint-config-tribou)
-[![Build Status](https://travis-ci.org/tribou/eslint-config-tribou.svg?branch=master)](https://travis-ci.org/tribou/eslint-config-tribou)
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![bitHound Code](https://www.bithound.io/github/tribou/eslint-config-tribou/badges/code.svg)](https://www.bithound.io/github/tribou/eslint-config-tribou)
+[![npm
+version](https://badge.fury.io/js/eslint-config-tribou.svg)](https://badge.fury.io/js/eslint-config-tribou)
+[![Build
+Status](https://travis-ci.org/tribou/eslint-config-tribou.svg?branch=master)](https://travis-ci.org/tribou/eslint-config-tribou)
+[![Project Status: Moved to https://github.com/tribou/eslint-plugin-tribou –
+The project has been moved to a new location, and the version at that location
+should be considered
+authoritative.](http://www.repostatus.org/badges/latest/moved.svg)](http://www.repostatus.org/#moved)
+to [eslint-plugin-tribou](https://github.com/tribou/eslint-plugin-tribou)
+[![bitHound
+Code](https://www.bithound.io/github/tribou/eslint-config-tribou/badges/code.svg)](https://www.bithound.io/github/tribou/eslint-config-tribou)
 
 Start with JS Standard Style but push towards better readability,
 git-awareness, vim-usability, and React and ES6 best practices.
+
+## This project has moved to
+[eslint-plugin-tribou](https://github.com/tribou/eslint-plugin-tribou)
+
+For backwards-compatibility to >= v3, use `eslint-plugin-tribou@^0.2.0`. To get
+the latest rules for a new project, install `eslint-plugin-tribou@latest`.
 
 #### Quick Start
 
@@ -15,14 +28,14 @@ npm install --save-dev \
     eslint-config-tribou@^3.0.0 \
     babel-eslint@^7.1.0 \
     eslint@^3.9.1 \
-    eslint-config-airbnb@^13.0.0 \
-    eslint-config-standard@^6.2.1 \
+    eslint-config-airbnb@^15.0.1 \
+    eslint-config-standard@^10.2.1 \
     eslint-plugin-flowtype@^2.25.0 \
     eslint-plugin-import@^2.1.0 \
-    eslint-plugin-jsx-a11y@^2.2.3 \
+    eslint-plugin-jsx-a11y@^5.0.3 \
     eslint-plugin-promise@^3.3.1 \
-    eslint-plugin-react@^6.6.0 \
-    eslint-plugin-standard@^2.0.1
+    eslint-plugin-react@^7.0.1 \
+    eslint-plugin-standard@^3.0.1
 ```
 
 Then add the following to your `.eslintrc`:

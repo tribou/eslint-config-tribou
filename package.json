@@ -45,7 +45,6 @@
     "eslint-plugin-promise": "^3.3.1",
     "eslint-plugin-react": "^7.0.1",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-tribou": "^0.2.0",
     "nodemon": "^1.11.0",
     "react": "^15.4.1",
     "react-redux": "^5.0.5",
@@ -54,14 +53,15 @@
   "peerDependencies": {
     "babel-eslint": "^7.1.0",
     "eslint": "^3.9.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-config-standard": "^6.2.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-standard": "^10.2.1",
     "eslint-plugin-flowtype": "^2.25.0",
     "eslint-plugin-import": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.3.1",
-    "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
     "lint": "eslint --cache --ignore-path .gitignore index.js",

@@ -63,8 +63,9 @@ export const initialState: InitState = {
 }
 
 
-function reducer (state: ?InitState = initialState, action: InitAction)
-  : ?InitState {
+function reducer (
+  state: ?InitState = initialState, action: InitAction
+): ?InitState {
 
   switch (action.type) {
 
