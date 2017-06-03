@@ -3,12 +3,13 @@ module.exports = {
   extends: [
     'eslint-config-airbnb',
     'eslint-config-standard',
+    'plugin:flowtype/recommended',
   ],
 
   parser: 'babel-eslint',
 
   plugins: [
-    'flowtype',
+    'tribou',
   ],
 
   rules: {
@@ -28,10 +29,13 @@ module.exports = {
       devDependencies: true,
     }],
 
+    'no-duplicate-imports': 0,
+
     'quote-props': ['error', 'as-needed', { numbers: true }],
 
     'react/jsx-filename-extension': [0],
     'react/require-extension': [0],
+    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
 
     strict: 0,
     'arrow-body-style': [2, 'always'],
@@ -59,6 +63,10 @@ module.exports = {
     flowtype: {
       onlyFilesWithFlowAnnotation: false,
     },
+  },
+
+  env: {
+    jest: true,
   },
 
 }
