@@ -8,6 +8,7 @@ Status](https://travis-ci.org/tribou/eslint-config-tribou.svg?branch=master)](ht
 The project has been moved to a new location, and the version at that location
 should be considered
 authoritative.](http://www.repostatus.org/badges/latest/moved.svg)](http://www.repostatus.org/#moved)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Feslint-config-tribou.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Feslint-config-tribou?ref=badge_shield)
 to [eslint-plugin-tribou](https://github.com/tribou/eslint-plugin-tribou)
 [![bitHound
 Code](https://www.bithound.io/github/tribou/eslint-config-tribou/badges/code.svg)](https://www.bithound.io/github/tribou/eslint-config-tribou)
@@ -91,3 +92,7 @@ settings:
   flowtype:
     onlyFilesWithFlowAnnotation: true
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Feslint-config-tribou.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftribou%2Feslint-config-tribou?ref=badge_large)
